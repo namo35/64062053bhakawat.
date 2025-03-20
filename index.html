@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhakawat Mumthong's Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Unkempt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bhakawat Mumthong</h1>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="showSection('about')">เกี่ยวกับฉัน</a></li>
+                <li><a href="javascript:void(0);" onclick="showSection('work-history')">ประวัติการทำงาน</a></li>
+                <li><a href="javascript:void(0);" onclick="showSection('images')">รูปภาพเกี่ยวกับฉัน</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="active">
+        <h2>Email Me: Demonicvtg@gmail.com</h2>
+        <div class="content">
+            <img src="images/profile.jpg" alt="Bhawat's Photo">
+            <div class="navigation-buttons">
+                <button class="zoom" onclick="scrollToNextImage('profile1')">ต่อไป</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="active">
+        <h2>เกี่ยวกับฉัน</h2>
+        <div class="content">
+            <img id="profile1" src="images/profile1.jpg" alt="New Image">
+            <p>Bio</p>
+            <p>ชื่อ นาย ภควัต มุมทอง</p>
+            <p>ชื่อเล่น : วิป</p>
+            <p>ส่วนสูง/น้ำหนัก: 177/68</p>
+            <p>My phone number : 0829364191</p>
+            <p>My instagram : Bhakawat_Mt</p>
+            <img id="profile1" src="images/profile3.jpg" alt="New Image">
+            <img id="profile1" src="images/profile4.png" alt="New Image">
+            <p>Education</p>
+            <p>ปัจจุบัน ฉันกำลังศึกษาอยู่ในระดับปริญญาตรี
+                คณะนิติศาสตร์จากมหาวิทยาลัยศรีปทุม</p>
+        </div>
+    </section>
+
+            <section id="about" class="active">
+                <h2>เกี่ยวกับฉัน</h2>
+                <div class="content">
+                    <p>Expertise</p>
+                    <p>ประสานงานกับฝ่ายต่างๆได้ดี</p>
+                    <p>ทำงานเป็นทีมเวิร์ค</p>
+                    <p>เรียนรู็สิ่งใหม่ๆอยู่เสมอ</p>
+                    <p>ฉันเป็นคนใจเย็นและวางแผนทุกครั้งในการทำงาน</p>
+                    <p>ฉันมีความเป็นผู้นำและจัดการแก้ไขปัญหาเฉพาะหน้าได้ดี</p>
+                    <div class="navigation-buttons">
+                        <div class="navigation-buttons">
+                            <button class="zoom" onclick="showSection('work-history')">ไปหน้าต่อไป</button>
+                        </div>
+                    </section>
+
+    <section id="work-history">
+        <h2>ประวัติการทำงาน</h2>
+        <h2>ฉันมีประสบการณ์ทำงานประเภท Event
+            ต่างๆ ระหว่างเรียน</h2>
+        <div class="content">
+            <img src="images/work 1.jpg" alt="Work 1">
+            <img src="images/work 2.jpg" alt="Work 2">
+        </div>
+        <div class="navigation-buttons">
+            <button class="zoom" onclick="showSection('about')">ย้อนกลับ</button>
+            <button class="zoom" onclick="showSection('images')">ไปหน้าต่อไป</button>
+        </div>
+    </section>
+
+    <section id="images">
+        <h2>Comcard</h2>
+        <div class="gallery">
+            <img src="images/image1.jpg" alt="Image 1">
+            <img src="images/image2.jpg" alt="Image 2">
+            <img src="images/image3.jpg" alt="Image 3">
+            <img src="images/image4.jpg" alt="Image 4">
+            <img src="images/image5.jpg" alt="Image 5">
+            <img src="images/image6.jpg" alt="Image 6">
+        </div>
+        <div class="navigation-buttons">
+            <button class="zoom" onclick="showSection('work-history')">ย้อนกลับ</button>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
