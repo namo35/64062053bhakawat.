@@ -13,3 +13,8 @@ function scrollToNextImage(imageId) {
     const image = document.getElementById(imageId);
     image.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
+
+function scrollToPreviousImage(imageId) {
+    const image = document.getElementById(imageId);
+    image.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
